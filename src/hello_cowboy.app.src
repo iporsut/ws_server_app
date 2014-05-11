@@ -1,0 +1,14 @@
+{application, hello_cowboy,
+ [
+  {description, "Hello world cowboy."},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, {hello_cowboy_app, []}},
+  {env, [{http_port, 8080}]}
+ ]}.
