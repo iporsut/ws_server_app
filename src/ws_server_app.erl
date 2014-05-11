@@ -1,7 +1,7 @@
 -module(ws_server_app).
 -behaviour(application).
 
--export([start/2, stop/1]).
+-export([start/2, stop/1, start_all/0]).
 
 -define(C_ACCEPTORS,  100).
 
