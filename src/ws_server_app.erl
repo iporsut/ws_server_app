@@ -10,7 +10,7 @@ start_all() ->
     application:start(crypto),
     application:start(cowlib),
     application:start(cowboy),
-    application:start(hello_cowboy).
+    application:start(ws_server).
 
 start(_StartType, _StartArgs) ->
     ets:new(ws_client, [set, named_table, public]),
