@@ -1,6 +1,6 @@
-{application, hello_cowboy,
+{application, ws_server,
  [
-  {description, "Hello world cowboy."},
+  {description, "Websocket Server."},
   {vsn, "1"},
   {modules, []},
   {registered, []},
@@ -9,6 +9,6 @@
                   stdlib,
                   cowboy
                  ]},
-  {mod, {hello_cowboy_app, []}},
+  {mod, {ws_server_app, []}},
   {env, [{http_port, 8080}]}
  ]}.

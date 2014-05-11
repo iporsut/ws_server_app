@@ -1,4 +1,4 @@
--module(hello_cowboy_sup).
+-module(ws_server_sup).
 
 -behaviour(supervisor).
 
